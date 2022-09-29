@@ -1,0 +1,55 @@
+#infoC{
+    width: 200px;
+    height: 50px;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: rgb(218, 215, 215);/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+    margin: 0 auto 10px auto;
+
+}
+  #infoC:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+    
+    margin: 0 auto 14px auto;
+  }
+#color{
+    border: 3px solid slategrey;
+    margin: 0 auto 0 auto;
+}
+#scale{
+    width: 800px;
+    height: 110px;
+    display: flex;
+    margin: 5px auto 0 auto;
+
+  }
+  .scaleBtn{
+    
+    width: 70px;
+height: 70px;
+line-height: 50px;
+text-align: center;
+display: block;
+background-color: rgb(255, 255, 255);
+border: solid 1px #666;
+border-radius: 5px;
+border-bottom: 4px solid #666;
+color: rgb(59, 59, 59);
+margin: 0 auto;
+cursor: pointer;
+    
+  }
+
+  #graphcanvas{
+      margin: 0 auto 0 auto;
+      background-color: black;
+      text-align: center;
+      
+  }
+  
