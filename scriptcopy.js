@@ -14,7 +14,7 @@ window.onload = function (){
     var cbHeight = 100;//カラーバーの高さ
     var cbWidth = 1000;//カラーバーの幅
     var kimenokomakasa = 10;//グラフ描画の細かさ
-    var graphspeed= 30;//グラフを描くスピード（値が小さいほど速い）
+    var graphspeed= 20;//グラフを描くスピード（値が小さいほど速い）
     var lotationTime = 5000;//ローテーションするときの一音当たり継続時間
     var colorbar = document.getElementById('color');
     var clickedColor;
