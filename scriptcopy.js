@@ -14,7 +14,7 @@ window.onload = function (){
     var cbHeight = 100;//カラーバーの高さ
     var cbWidth = 1000;//カラーバーの幅
     var kimenokomakasa = 10;//グラフ描画の細かさ
-    var graphspeed= 20;//グラフを描くスピード（値が小さいほど速い）
+    var graphspeed= 15;//グラフを描くスピード（値が小さいほど速い）
     var lotationTime = 5000;//ローテーションするときの一音当たり継続時間
     var colorbar = document.getElementById('color');
     var clickedColor;
@@ -26,7 +26,7 @@ window.onload = function (){
 
     ////音とボタンの組み合わせをランダムに設定
     
-    var randoms = [2,3,5,6,9,1,10,4,7,8,12,11];//音のランダムを決める。
+    var randoms = [2,3,5,6,9,1,10,4,12,8,7,11];//音のランダムを決める。
     /*
 var min = 1, max = 12;
 for(i = min; i <= max; i++){
